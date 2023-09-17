@@ -1,2 +1,2 @@
-ech 'hello hello'
-expr 2 * 3
+#!/bin/bash
+echo 'hello'
