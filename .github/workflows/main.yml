@@ -3,9 +3,7 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      # run shellcheck
+    steps:     
+      - uses: actions/checkout@v2     
       - name: ShellCheck
-        uses: ludeeus/action-shellcheck@1.1.0
+        uses: ludeeus/action-shellcheck@2.0.0
