@@ -1,2 +1,3 @@
+#!/bin/bash
 ech hello hello
-ex[r 3 * 4
+expr 3 * 4
