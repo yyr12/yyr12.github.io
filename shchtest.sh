@@ -1,3 +1,3 @@
 #!/bin/bash
-ech hello hello
-expr 3 * 4
+echo  hello hello
+expr 3 \* 4
