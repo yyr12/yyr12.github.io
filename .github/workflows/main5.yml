@@ -5,8 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Writegood Check
-        uses: mnahinkhan/writegood-action@v1.0.0
-       
-
-		
-
+        uses: mnahinkhan/writegood-action@v1.0.0     
